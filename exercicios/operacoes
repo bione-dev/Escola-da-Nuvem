@@ -1,0 +1,15 @@
+def executar(func,n,m):
+    func(n,m)
+
+def soma(a,b):
+    return print(a+b)
+
+def multiply(a,b):
+    return print(a*b)
+
+def square(a,b):
+    return print((a+b)**2)
+
+executar(soma,1,2)
+executar(multiply,3,2)
+executar(square,3,2)
